@@ -1,0 +1,29 @@
+/**** FONTES ****/
+// @font-face {
+//     font-family: 'OpenSans';
+//     src: url("../src/fonts/OpenSans/OpenSans.ttf");
+// }
+// Project styles - Variables
+@import "_variables.scss";
+
+// Includes styles Bootstrap - Required
+@import "../../node_modules/bootstrap/scss/functions";
+@import "../../node_modules/bootstrap/scss/variables";
+@import "../../node_modules/bootstrap/scss/mixins";
+
+// Includes styles Bootstrap - Optional
+@import "../../node_modules/bootstrap/scss/grid";
+@import "../../node_modules/bootstrap/scss/buttons";
+@import "../../node_modules/bootstrap/scss/_utilities";
+@import "../../node_modules/bootstrap/scss/_nav";
+@import "../../node_modules/bootstrap/scss/_navbar";
+@import "../../node_modules/bootstrap/scss/_transitions";
+@import "../../node_modules/bootstrap/scss/_dropdown";
+@import "../../node_modules/bootstrap/scss/_forms";
+@import "../../node_modules/bootstrap/scss/_input-group";
+
+// Project styles
+@import "_mixins.scss";
+@import "_resets.scss";
+
+/**** General styles ****/

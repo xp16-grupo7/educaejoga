@@ -1,0 +1,33 @@
+// Resets
+*{
+    margin: 0;
+    padding: 0;
+    line-height: 1.3;
+    box-sizing: border-box;
+}
+html{
+    font-size: 10px;
+}
+h1, h2, h3, h4, h5, h6, p, span, strong, .nav-link {    
+    color: $gray;    
+}
+h1, h2, h3, h4, h5, h6{
+    line-height: 1;    
+}
+p, a, .btn, label, th, td{
+    font-size: $font14;
+}
+img{
+    max-width: 100%;
+}
+.btn{
+    text-transform: uppercase;
+    text-decoration: none;
+    min-width: 180px;
+}
+.form-control{
+    font-size: $font14;
+    height: calc(2.25rem + 10px);
+    border: 2px solid $white;
+    background-color: #d9d9d9;
+}

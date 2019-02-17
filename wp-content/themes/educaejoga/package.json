@@ -1,0 +1,26 @@
+{
+    "name": "educa-e-joga",
+    "version": "1.4.0",
+    "description": "Configuracoes iniciais para desenvolvimento de temas WP com Sass",
+    "author": "Grupo#7 XP16",
+    "license": "ISC",
+    "homepage": "http://educaejoga.com.br",
+    "dependencies": {
+        "@fortawesome/fontawesome-free": "^5.4.1",
+        "bootstrap": "^4.1.3",
+        "jquery": "^3.3.1",
+        "popper.js": "^1.14.4",
+        "swiper": "^4.4.6",
+        "gulp-plumber": "^1.2.0",
+        "gulp-sass": "^4.0.2",
+        "autoprefixer": "*",
+        "css-mqpacker": "*",
+        "cssnano": "*",
+        "gulp": "^4.0.0",
+        "gulp-concat": "*",
+        "gulp-postcss": "*",
+        "gulp-sourcemaps": "*",
+        "gulp-uglify": "*",
+        "pump": "*"
+    }
+}
