@@ -4,6 +4,7 @@
     padding: 0;
     line-height: 1.3;
     box-sizing: border-box;
+    font-family: sans-serif;
 }
 html{
     font-size: 10px;
@@ -14,8 +15,8 @@ h1, h2, h3, h4, h5, h6, p, span, strong, .nav-link {
 h1, h2, h3, h4, h5, h6{
     line-height: 1;    
 }
-p, a, .btn, label, th, td{
-    font-size: $font14;
+h1, h2, h3, h4, h5, h6, p, span, strong, .nav-link, p, a, .btn, label, th, td{
+    font-size: $font16;
 }
 img{
     max-width: 100%;
