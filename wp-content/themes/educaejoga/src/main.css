@@ -4508,6 +4508,9 @@ textarea.form-control {
 html {
   font-size: 10px; }
 
+body {
+  background-color: #ddd; }
+
 h1, h2, h3, h4, h5, h6, p, span, strong, .nav-link {
   color: #6d6e71; }
 
@@ -4543,12 +4546,37 @@ img {
   color: #404041;
   font-size: 16px;
   text-align: center;
-  margin-bottom: 20px; }
+  margin-bottom: 50px; }
 
 /**** Section styles ****/
 #about {
   padding-top: 40px;
   padding-bottom: 40px; }
+  #about .about-img {
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto; }
+  #about .about-item {
+    background-color: #fff;
+    padding: 40px 20px;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    -moz-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: 0.3s ease-in-out all;
+    -o-transition: 0.3s ease-in-out all;
+    transition: 0.3s ease-in-out all; }
+    #about .about-item:hover {
+      -webkit-transform: scale(1.02);
+      -ms-transform: scale(1.02);
+      -moz-transform: scale(1.02);
+      transform: scale(1.02);
+      cursor: pointer; }
+  #about .about-title {
+    font-size: 18px;
+    color: #404041;
+    margin-top: 20px;
+    margin-bottom: 20px; }
 
 #participants {
   padding-top: 40px;
