@@ -4550,8 +4550,8 @@ img {
 
 /**** Section styles ****/
 #about {
-  padding-top: 40px;
-  padding-bottom: 40px; }
+  padding-top: 60px;
+  padding-bottom: 60px; }
   #about .about-img {
     border-radius: 50%;
     display: block;
@@ -4579,9 +4579,22 @@ img {
     margin-bottom: 20px; }
 
 #participants {
-  padding-top: 40px;
-  padding-bottom: 40px; }
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #fff; }
+  #participants .participants-img {
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto; }
+  #participants .participants-title {
+    font-size: 18px;
+    color: #404041;
+    margin-top: 20px;
+    margin-bottom: 10px; }
+  #participants .participants-ocupation {
+    margin-bottom: 20px;
+    color: #404041; }
 
 #who-we-are {
-  padding-top: 40px;
-  padding-bottom: 40px; }
+  padding-top: 60px;
+  padding-bottom: 60px; }
