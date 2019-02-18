@@ -4598,3 +4598,28 @@ img {
 #who-we-are {
   padding-top: 60px;
   padding-bottom: 60px; }
+
+.footer {
+  padding-top: 60px;
+  background-color: #fff; }
+  .footer .footer-nav {
+    padding-left: 0;
+    list-style: none; }
+    .footer .footer-nav .footer-link {
+      text-decoration: none;
+      font-size: 18px;
+      font-weight: bold;
+      color: #404041;
+      line-height: 1.5; }
+    .footer .footer-nav .footer-email {
+      font-weight: normal; }
+  .footer .footer-copyright {
+    margin-top: 60px;
+    background-color: #d35400;
+    padding: 20px;
+    text-align: center; }
+    .footer .footer-copyright .copyright-link {
+      color: #fff;
+      display: inline-block;
+      text-align: center;
+      text-decoration: none; }

@@ -1,0 +1,30 @@
+.footer{
+    padding-top: 60px;
+    background-color: $white;
+    .footer-nav{
+        padding-left: 0;
+        list-style: none;
+        .footer-link{
+            text-decoration: none;
+            font-size: $font18;
+            font-weight: bold; 
+            color: $gray_dark;
+            line-height: 1.5;
+        }
+        .footer-email{
+            font-weight: normal;
+        }
+    }
+    .footer-copyright{
+        margin-top: 60px;
+        background-color: $orange;
+        padding: 20px;
+        text-align: center;
+        .copyright-link{
+            color: $white;
+            display: inline-block;
+            text-align: center;
+            text-decoration: none;
+        }
+    }
+}
