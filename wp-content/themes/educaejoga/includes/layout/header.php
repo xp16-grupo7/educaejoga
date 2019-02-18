@@ -31,17 +31,11 @@
 				<div class="collapse navbar-collapse justify-content-end" id="navbar-site">
 					<ul class="navbar-nav">
 						<li class="nav-item">
-							<a class="nav-link" href="#top" title="Home">Home</a>
+							<a class="nav-link" href="#top" title="Compra de ingressos">Compra de ingressos</a>
 						</li> 					
 						<li class="nav-item">
-							<a class="nav-link" href="#about" title="Sobre">Sobre</a>
-						</li> 					
-						<li class="nav-item">
-							<a class="nav-link" href="#participants" title="Participantes">Participantes</a>
-						</li> 					
-						<li class="nav-item">
-							<a class="nav-link" href="#who-we-are" title="Quem Somos">Quem Somos</a>
-						</li> 					
+							<a class="nav-link" href="#about" title="Mais detalhes">Mais detalhes</a>
+						</li> 				
 					</ul>
 				</div> 
 			</nav>

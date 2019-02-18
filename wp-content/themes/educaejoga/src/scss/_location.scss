@@ -1,0 +1,32 @@
+#location{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    .section-description{
+        text-align: left;
+    }
+    .location-title{
+        color: $purple;
+        margin-bottom: 20px;
+        font-weight: bold;
+        font-size: $font26;
+    }
+    .location-item{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .location-description,
+    .location-icon{
+        flex-grow: 1;
+    }
+    .location-description{
+        padding-bottom: 15px;
+    }
+    @include media_query_max(992px){
+        .location-icon{
+            flex-grow: 0;            
+        }
+        .location-description{
+            padding-left: 20px;
+        }
+    }
+}

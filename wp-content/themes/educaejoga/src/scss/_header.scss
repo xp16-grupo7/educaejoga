@@ -1,5 +1,12 @@
 #header{
     .nav-link{
         text-decoration: none;
+        @include media_query_max(992px){
+            display: block;
+            text-align: center;
+        }
+    }
+    .navbar-toggler{
+        background-color: $gray;
     }
 }

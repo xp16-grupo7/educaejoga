@@ -1,6 +1,9 @@
 .footer{
     padding-top: 60px;
     background-color: $white;
+    [class*="fa"]{
+        color: $purple;
+    }
     .footer-nav{
         padding-left: 0;
         list-style: none;
@@ -10,18 +13,20 @@
             font-weight: bold; 
             color: $gray_dark;
             line-height: 1.5;
+            margin-bottom: 20px;
         }
         .footer-email{
             font-weight: normal;
+            display: block;
         }
     }
     .footer-copyright{
         margin-top: 60px;
-        background-color: $orange;
+        background-color: $gray_light;
         padding: 20px;
         text-align: center;
         .copyright-link{
-            color: $white;
+            color: $gray;
             display: inline-block;
             text-align: center;
             text-decoration: none;
