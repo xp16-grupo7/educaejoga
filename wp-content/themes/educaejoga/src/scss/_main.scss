@@ -1,0 +1,33 @@
+#main{
+    display: flex;
+    #carrosel-main{
+        height: 100vh;
+        width: 100%;
+    }
+    .carrossel-main-item{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        .main-img{
+            background-size: cover;
+            background-position: center;
+        }
+    }
+    .main-title{
+        font-size: $font30;
+        font-weight: bold;
+        text-transform: uppercase;
+        color: $gray_dark;
+        margin-bottom: 20px;
+    }    
+    .main-subtitle{
+        font-size: $font20;
+        color: $gray_dark;        
+    }
+    .main-description{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        color: $gray_dark;
+    }
+}

@@ -12,7 +12,7 @@
 	<meta name="author" content="" />
 	<meta name="language" content="pt-br" />
     <link rel="canonical" href="https://<?= $_SERVER['SERVER_NAME'].$_SERVER['REQUEST_URI'] ?>" />
-	<!-- <link rel="stylesheet" href="<?php bloginfo("template_url"); ?>/src/css/swiper.css" type="text/css" /> -->
+	<link rel="stylesheet" href="<?php bloginfo("template_url"); ?>/src/css/swiper.css" type="text/css" />
 	<link rel="stylesheet" href="<?php bloginfo("template_url"); ?>/dist/main.css" type="text/css" />
 	<meta name="theme-color" content="#ffffff" />
 </head>
@@ -30,16 +30,17 @@
 				
 				<div class="collapse navbar-collapse justify-content-end" id="navbar-site">
 					<ul class="navbar-nav">
-						<li class="nav-item dropdown">
-							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-							Lorem ipsum <i class="fa fa-angle-down"></i>
-							</a>
-							<div class="dropdown-menu" aria-labelledby="navbarDropdown">							
-								<a class="dropdown-item" href="<?= site_url('/'); ?>" title="">Lorem</a>
-							</div>
-						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="<?= site_url('#'); ?>" title="">Lorem ipsum</a>
+							<a class="nav-link" href="#top" title="Home">Home</a>
+						</li> 					
+						<li class="nav-item">
+							<a class="nav-link" href="#about" title="Sobre">Sobre</a>
+						</li> 					
+						<li class="nav-item">
+							<a class="nav-link" href="#participants" title="Participantes">Participantes</a>
+						</li> 					
+						<li class="nav-item">
+							<a class="nav-link" href="#who-we-are" title="Quem Somos">Quem Somos</a>
 						</li> 					
 					</ul>
 				</div> 

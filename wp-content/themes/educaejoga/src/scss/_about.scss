@@ -9,7 +9,10 @@
     .about-item{
         background-color: $white;
         padding: 40px 20px;    
-        @include transform(1, 1.02);            
+        @include transform(1, 1.02);       
+        &:hover{
+            cursor: default;
+        }
     }
     .about-title{
         font-size: $font18;

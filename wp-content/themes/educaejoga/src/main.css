@@ -4549,6 +4549,36 @@ img {
   margin-bottom: 50px; }
 
 /**** Section styles ****/
+#header .nav-link {
+  text-decoration: none; }
+
+#main {
+  display: flex; }
+  #main #carrosel-main {
+    height: 100vh;
+    width: 100%; }
+  #main .carrossel-main-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%; }
+    #main .carrossel-main-item .main-img {
+      background-size: cover;
+      background-position: center; }
+  #main .main-title {
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #404041;
+    margin-bottom: 20px; }
+  #main .main-subtitle {
+    font-size: 20px;
+    color: #404041; }
+  #main .main-description {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #404041; }
+
 #about {
   padding-top: 60px;
   padding-bottom: 60px; }
@@ -4572,6 +4602,8 @@ img {
       -moz-transform: scale(1.02);
       transform: scale(1.02);
       cursor: pointer; }
+    #about .about-item:hover {
+      cursor: default; }
   #about .about-title {
     font-size: 18px;
     color: #404041;
