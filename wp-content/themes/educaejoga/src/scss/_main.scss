@@ -9,25 +9,30 @@
         justify-content: center;
         align-items: center;
         height: 100%;
+        position: relative;
+        @include bg_color_after();
         .main-img{
             background-size: cover;
             background-position: center;
         }
     }
+    .main-wrapper{
+        z-index: 1;
+    }
     .main-title{
-        font-size: $font30;
+        font-size: $font40;
         font-weight: bold;
         text-transform: uppercase;
-        color: $gray_dark;
+        color: $white;
         margin-bottom: 20px;
     }    
     .main-subtitle{
-        font-size: $font20;
-        color: $gray_dark;        
+        font-size: $font19;
+        color: $white;        
     }
     .main-description{
         margin-top: 20px;
         margin-bottom: 20px;
-        color: $gray_dark;
+        color: $white;
     }
 }
