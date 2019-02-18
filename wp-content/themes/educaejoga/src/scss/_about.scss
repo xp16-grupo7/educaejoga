@@ -8,9 +8,10 @@
         max-width: 120px;
     }
     .about-item{
-        padding: 40px 20px;    
+        padding: 70px;    
         @include transform(1, 1.02);  
         border-radius: $radius;     
+        min-height: 455px;
         &:hover{
             cursor: default;
         }
@@ -35,6 +36,9 @@
     @include media_query_max(992px){
         .about-description{
             max-width: 100%;
+        }
+        .about-item{
+            padding: 40px 20px;
         }
     }
 }
