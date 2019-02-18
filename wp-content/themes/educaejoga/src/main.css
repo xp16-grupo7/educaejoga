@@ -4662,7 +4662,8 @@ img {
   #about .about-img {
     border-radius: 50%;
     display: block;
-    margin: 0 auto; }
+    margin: 0 auto;
+    max-width: 120px; }
   #about .about-item {
     padding: 40px 20px;
     -webkit-transform: scale(1);
@@ -4702,18 +4703,28 @@ img {
   padding-top: 60px;
   padding-bottom: 60px;
   background-color: #fff; }
+  @media only screen and (max-width: 992px) {
+    #participants .participants-item {
+      margin-bottom: 30px; } }
   #participants .participants-img {
     border-radius: 50%;
     display: block;
-    margin: 0 auto; }
+    margin: 0 auto;
+    max-width: 100%; }
   #participants .participants-title {
-    font-size: 18px;
-    color: #3A3333;
+    font-size: 30px;
+    color: #442280;
     margin-top: 20px;
-    margin-bottom: 10px; }
+    margin-bottom: 30px; }
   #participants .participants-ocupation {
     margin-bottom: 20px;
-    color: #3A3333; }
+    color: #3A3333;
+    font-size: 24px; }
+  @media only screen and (max-width: 992px) {
+    #participants .participants-title {
+      font-size: 20px; }
+    #participants .participants-ocupation {
+      font-size: 15px; } }
 
 #who-we-are {
   padding-top: 60px;
