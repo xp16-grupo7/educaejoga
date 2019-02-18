@@ -4631,6 +4631,28 @@ img {
   padding-top: 60px;
   padding-bottom: 60px; }
 
+.who-we-are-img {
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto; }
+
+.learn-title {
+  padding-top: 20px;
+  padding-bottom: 20px; }
+
+.learn-description {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 60px; }
+
+.gamification-title {
+  padding-top: 20px;
+  padding-bottom: 20px; }
+
+.gamification-description {
+  padding-left: 40px;
+  padding-right: 40px; }
+
 .footer {
   padding-top: 60px;
   background-color: #fff; }
