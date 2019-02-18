@@ -4732,12 +4732,12 @@ img {
 
 #who-we-are {
   padding-top: 60px;
-  padding-bottom: 60px; }
-
-.who-we-are-img {
-  border-radius: 50%;
-  display: block;
-  margin: 0 auto; }
+  padding-bottom: 60px;
+  background-image: url("../../img/bg-quem-somos.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: auto; }
 
 .learn-title {
   padding-top: 20px;
