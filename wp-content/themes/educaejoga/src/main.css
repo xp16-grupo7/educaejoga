@@ -4710,12 +4710,14 @@ img {
     border-radius: 50%;
     display: block;
     margin: 0 auto;
-    max-width: 100%; }
+    max-width: 200px; }
   #participants .participants-title {
     font-size: 30px;
     color: #442280;
     margin-top: 20px;
     margin-bottom: 30px; }
+  #participants .participants-description {
+    font-size: 24px; }
   #participants .participants-ocupation {
     margin-bottom: 20px;
     color: #3A3333;
@@ -4724,6 +4726,8 @@ img {
     #participants .participants-title {
       font-size: 20px; }
     #participants .participants-ocupation {
+      font-size: 15px; }
+    #participants .participants-description {
       font-size: 15px; } }
 
 #who-we-are {

@@ -11,7 +11,7 @@
         border-radius: 50%;
         display: block;
         margin: 0 auto;
-        max-width: 100%;
+        max-width: 200px;
     }
     .participants-title{
         font-size: $font30;
@@ -19,6 +19,9 @@
         margin-top: 20px;        
         margin-bottom: 30px;        
     }  
+    .participants-description{
+        font-size: $font24;
+    }
     .participants-ocupation{
         margin-bottom: 20px;
         color: $gray_dark;
@@ -29,6 +32,9 @@
             font-size: $font20;
         }  
         .participants-ocupation{
+            font-size: $font15;
+        }
+        .participants-description{
             font-size: $font15;
         }
     }
