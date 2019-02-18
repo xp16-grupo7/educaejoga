@@ -4569,9 +4569,6 @@ textarea.form-control {
 html {
   font-size: 10px; }
 
-body {
-  background-color: #ddd; }
-
 h1, h2, h3, h4, h5, h6, p, span, strong, .nav-link {
   color: #6d6e71; }
 
@@ -4598,16 +4595,22 @@ img {
 /**** General styles ****/
 .section-title {
   color: #442280;
-  font-size: 22px;
+  font-size: 35px;
   font-weight: bold;
   text-align: center;
   margin-bottom: 20px; }
+  @media only screen and (max-width: 992px) {
+    .section-title {
+      font-size: 22px; } }
 
 .section-description {
   color: #3A3333;
-  font-size: 14px;
+  font-size: 22px;
   text-align: center;
   margin-bottom: 50px; }
+  @media only screen and (max-width: 992px) {
+    .section-description {
+      font-size: 14px; } }
 
 /**** Section styles ****/
 #header .nav-link {
@@ -4661,7 +4664,6 @@ img {
     display: block;
     margin: 0 auto; }
   #about .about-item {
-    background-color: #fff;
     padding: 40px 20px;
     -webkit-transform: scale(1);
     -ms-transform: scale(1);
@@ -4669,7 +4671,8 @@ img {
     transform: scale(1);
     -webkit-transition: 0.3s ease-in-out all;
     -o-transition: 0.3s ease-in-out all;
-    transition: 0.3s ease-in-out all; }
+    transition: 0.3s ease-in-out all;
+    border-radius: 8px; }
     #about .about-item:hover {
       -webkit-transform: scale(1.02);
       -ms-transform: scale(1.02);
@@ -4678,11 +4681,22 @@ img {
       cursor: pointer; }
     #about .about-item:hover {
       cursor: default; }
+  #about .item-purple {
+    background-color: #442280; }
+  #about .item-pink {
+    background-color: #e83e8c; }
   #about .about-title {
-    font-size: 18px;
-    color: #3A3333;
+    font-size: 25px;
     margin-top: 20px;
-    margin-bottom: 20px; }
+    margin-bottom: 20px;
+    color: #fff; }
+  #about .about-description {
+    font-size: 20px;
+    max-width: 600px;
+    color: #fff; }
+  @media only screen and (max-width: 992px) {
+    #about .about-description {
+      max-width: 100%; } }
 
 #participants {
   padding-top: 60px;

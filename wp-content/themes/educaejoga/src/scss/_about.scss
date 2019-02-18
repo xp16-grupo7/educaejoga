@@ -7,17 +7,33 @@
         margin: 0 auto;
     }
     .about-item{
-        background-color: $white;
         padding: 40px 20px;    
-        @include transform(1, 1.02);       
+        @include transform(1, 1.02);  
+        border-radius: $radius;     
         &:hover{
             cursor: default;
         }
     }
+    .item-purple{
+        background-color: $purple;
+    }
+    .item-pink{
+        background-color: $pink;
+    }
     .about-title{
-        font-size: $font18;
-        color: $gray_dark;
+        font-size: $font25;
         margin-top: 20px;        
-        margin-bottom: 20px;        
+        margin-bottom: 20px;  
+        color: $white;      
     }    
+    .about-description{
+        font-size: $font20;
+        max-width: 600px;
+        color: $white;
+    }
+    @include media_query_max(992px){
+        .about-description{
+            max-width: 100%;
+        }
+    }
 }

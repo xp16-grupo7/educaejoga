@@ -1,13 +1,19 @@
 .section-title{
     color: $purple;
-    font-size: $font22;
+    font-size: $font35;
     font-weight: bold;
     text-align: center;
     margin-bottom: 20px;
+    @include media_query_max(992px){
+        font-size: $font22;
+    }
 }
 .section-description{
     color: $gray_dark;
-    font-size: $font14;
+    font-size: $font22;
     text-align: center;
     margin-bottom: 50px;
+    @include media_query_max(992px){
+        font-size: $font14;
+    }
 }
