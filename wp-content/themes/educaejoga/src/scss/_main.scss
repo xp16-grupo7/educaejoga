@@ -1,7 +1,7 @@
 #main{
     display: flex;
     #carrosel-main{
-        height: 100vh;
+        
         width: 100%;
     }
     .carrossel-main-item{
@@ -10,7 +10,10 @@
         align-items: center;
         height: 100%;
         position: relative;
-        @include bg_color_after();
+        padding-top: 80px;
+        padding-bottom: 80px;
+        @include img_bg('../img/banner-topo-desk.jpg');
+
         .main-img{
             background-size: cover;
             background-position: center;

@@ -4626,24 +4626,18 @@ img {
 #main {
   display: flex; }
   #main #carrosel-main {
-    height: 100vh;
     width: 100%; }
   #main .carrossel-main-item {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100%;
-    position: relative; }
-    #main .carrossel-main-item::after {
-      content: "";
-      display: block;
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      opacity: 0.8;
-      background-color: #442280; }
+    position: relative;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-image: url("../img/banner-topo-desk.jpg");
+    background-size: cover;
+    background-position: center; }
     #main .carrossel-main-item .main-img {
       background-size: cover;
       background-position: center; }

@@ -1,7 +1,7 @@
 <main id="main">
     <div class="swiper-container" id="carrosel-main">
         <ul class="swiper-wrapper">
-            <li class="swiper-slide carrossel-main-item" style="background-image: url('https://via.placeholder.com/1200x700')">
+            <li class="swiper-slide carrossel-main-item">
                 <div class="main-wrapper text-center">
                     <h1 class="main-title">GamificaÊ</h1>
                     <h2 class="main-subtitle">Evolua. Engaje. Eduque.</h2>

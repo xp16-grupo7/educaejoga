@@ -33,6 +33,11 @@
         background-color: $color;
     }    
 }
+@mixin img_bg($url) {
+    background-image: url($url);
+    background-size: cover;
+    background-position: center;  
+}
 
 @mixin transform($inicial: 1, $final: 1.1) {
     -webkit-transform: scale($inicial);
