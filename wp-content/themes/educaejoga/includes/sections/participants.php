@@ -8,7 +8,7 @@
             </div>            
         </div>
         <div class="row justify-content-center">            
-            <div class="col-lg-4 col-12 participants-item">
+            <div class="col-lg-5 col-12 participants-item">
                 <div class="text-center">
                     <img src="<?php bloginfo("template_url")?>/img/fernanda-lima.png" alt="Fernanda Lima" title="Fernanda Lima" class="participants-img" />
                     <h3 class="participants-title">Fernanda Lima</h3>
@@ -16,7 +16,7 @@
                     <p class="participants-description">É <strong>pedagoga</strong>, atuou na área de <strong>RH</strong> desenvolvendo universidades corporativas, é <strong>psicanalista</strong> e atualmente está estuda coaching para adolescentes</p>
                 </div>
             </div>
-            <div class="col-lg-4 col-12 participants-item">
+            <div class="col-lg-5 col-12 participants-item">
                 <div class="text-center">
                     <img src="<?php bloginfo("template_url")?>/img/palestrante.png" alt="Fernanda Lima" title="Fernanda Lima" class="participants-img" />
                     <h3 class="participants-title">Divulgaremos em Breve</h3>

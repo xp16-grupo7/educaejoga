@@ -4594,7 +4594,7 @@ img {
 
 /**** General styles ****/
 .section-title {
-  color: #442280;
+  color: #5d29ba;
   font-size: 35px;
   font-weight: bold;
   text-align: center;
@@ -4658,8 +4658,16 @@ img {
     color: #fff; }
 
 #about {
-  padding-top: 60px;
-  padding-bottom: 60px; }
+  padding-top: 80px;
+  padding-bottom: 80px; }
+  #about .section-description {
+    max-width: 55%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; }
+    #about .section-description strong {
+      font-size: inherit;
+      color: inherit; }
   #about .about-img {
     border-radius: 50%;
     display: block;
@@ -4685,7 +4693,7 @@ img {
     #about .about-item:hover {
       cursor: default; }
   #about .item-purple {
-    background-color: #442280; }
+    background-color: #5d29ba; }
   #about .item-pink {
     background-color: #e83e8c; }
   #about .about-title {
@@ -4698,10 +4706,15 @@ img {
     max-width: 600px;
     color: #fff; }
   @media only screen and (max-width: 992px) {
-    #about .about-description {
-      max-width: 100%; }
-    #about .about-item {
-      padding: 40px 20px; } }
+    #about {
+      padding-top: 60px;
+      padding-bottom: 60px; }
+      #about .about-description {
+        max-width: 100%; }
+      #about .about-item {
+        padding: 40px 20px; }
+      #about .section-description {
+        max-width: 100%; } }
 
 #participants {
   padding-top: 60px;
@@ -4711,7 +4724,7 @@ img {
     #participants .participants-item {
       margin-bottom: 30px; } }
   #participants .section-title {
-    margin-bottom: 40px; }
+    margin-bottom: 50px; }
   #participants strong {
     font-size: inherit; }
   #participants .participants-img {
@@ -4721,11 +4734,15 @@ img {
     max-width: 200px; }
   #participants .participants-title {
     font-size: 30px;
-    color: #442280;
+    color: #5d29ba;
     margin-top: 20px;
     margin-bottom: 20px; }
   #participants .participants-description {
-    font-size: 24px; }
+    font-size: 24px;
+    color: #3A3333; }
+    #participants .participants-description strong {
+      color: inherit;
+      font-size: inherit; }
   #participants .participants-ocupation {
     margin-bottom: 20px;
     color: #3A3333;
@@ -4741,7 +4758,7 @@ img {
 #call {
   padding-top: 60px;
   padding-bottom: 60px;
-  background-image: url("../img/banner-call-desk.jpg");
+  background-image: url("../img/banner-cta-desk.jpg");
   background-size: cover;
   background-position: center; }
   #call .section-title,
@@ -4754,7 +4771,7 @@ img {
   #location .section-description {
     text-align: left; }
   #location .location-title {
-    color: #442280;
+    color: #5d29ba;
     margin-bottom: 20px;
     font-weight: bold;
     font-size: 26px; }
@@ -4770,11 +4787,15 @@ img {
     #location .location-icon {
       flex-grow: 0; }
     #location .location-description {
-      padding-left: 20px; }
+      padding-left: 0; }
     #location .location-item {
-      justify-content: center; }
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      margin-bottom: 20px; }
     #location .location-icon {
-      margin-right: 0; } }
+      margin-right: 0;
+      margin-bottom: 20px; } }
 
 #who-we-are {
   padding-top: 60px;
@@ -4819,11 +4840,31 @@ img {
       #who-we-are .who-we-are-items .who-we-are-description {
         padding-left: 0; } }
 
+#call-footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #5d29ba; }
+  #call-footer .call-footer-text {
+    color: #fff;
+    font-weight: bold;
+    font-size: 40px; }
+  #call-footer .form-control {
+    min-height: 50px;
+    background-color: #fff; }
+  @media only screen and (max-width: 992px) {
+    #call-footer {
+      text-align: center; }
+      #call-footer .call-footer-text {
+        margin-bottom: 20px;
+        text-align: center;
+        font-size: 22px; } }
+
 .footer {
   padding-top: 60px;
   background-color: #fff; }
   .footer [class*="fa"] {
-    color: #442280; }
+    color: #5d29ba;
+    font-size: 20px; }
   .footer .footer-nav {
     padding-left: 0;
     list-style: none; }
@@ -4837,6 +4878,8 @@ img {
     .footer .footer-nav .footer-email {
       font-weight: normal;
       display: block; }
+  .footer .footer-social-links {
+    text-align: right; }
   .footer .footer-copyright {
     margin-top: 60px;
     background-color: #c4c4c4;
@@ -4847,3 +4890,7 @@ img {
       display: inline-block;
       text-align: center;
       text-decoration: none; }
+  @media only screen and (max-width: 992px) {
+    .footer .footer-nav,
+    .footer .footer-social-links {
+      text-align: center; } }

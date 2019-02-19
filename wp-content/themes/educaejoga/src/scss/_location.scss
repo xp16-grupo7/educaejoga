@@ -26,13 +26,17 @@
             flex-grow: 0;            
         }
         .location-description{
-            padding-left: 20px;
+            padding-left: 0;            
         }
-        .location-item{
-            justify-content: center;
+        .location-item{            
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            margin-bottom: 20px;
         }
         .location-icon{         
             margin-right: 0;
+            margin-bottom: 20px;
         }
     }
 }

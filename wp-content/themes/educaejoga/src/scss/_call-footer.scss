@@ -1,4 +1,22 @@
 #call-footer{
     padding-top: 60px;
     padding-bottom: 60px;
+    background-color: $purple;
+    .call-footer-text{
+        color: $white;
+        font-weight: bold;
+        font-size: $font40;
+    }
+    .form-control{
+        min-height: 50px;
+        background-color: $white;
+    }
+    @include media_query_max(992px){
+        text-align: center;
+        .call-footer-text{
+            margin-bottom: 20px;
+            text-align: center;
+            font-size: $font22;
+        }        
+    }
 }

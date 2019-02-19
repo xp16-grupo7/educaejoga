@@ -7,7 +7,7 @@
                 </div>
                 <div class="location-description">
                     <h3 class="location-title">Quando?</h3>
-                    <p class="section-description">Em breve!</p>
+                    <p class="location-description">Em breve!</p>
                 </div>
             </div>
             <div class="col-lg-4 col-12 location-item">
@@ -16,7 +16,7 @@
                 </div>
                 <div class="location-description">
                     <h3 class="location-title">Onde?</h3>
-                    <p class="section-description">São Paulo, SP!</p>
+                    <p class="location-description">São Paulo, SP!</p>
                 </div>
             </div>
             <div class="col-lg-4 col-12 location-item">
@@ -25,7 +25,7 @@
                 </div>
                 <div class="location-description">
                     <h3 class="location-title">Que horas?</h3>
-                    <p class="section-description">Em breve!</p>
+                    <p class="location-description">Em breve!</p>
                 </div>
             </div>
         </div>

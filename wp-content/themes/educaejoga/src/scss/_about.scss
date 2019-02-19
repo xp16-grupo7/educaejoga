@@ -1,7 +1,16 @@
 #about{
-    padding-top: 60px;
-    padding-bottom: 60px;   
-     
+    padding-top: 80px;
+    padding-bottom: 80px; 
+    .section-description{
+        max-width: 55%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        strong{
+            font-size: inherit;
+            color: inherit;
+        }
+    }      
     .about-img{
         border-radius: 50%;
         display: block;
@@ -35,11 +44,16 @@
         color: $white;
     }
     @include media_query_max(992px){
+        padding-top: 60px;
+        padding-bottom: 60px;
         .about-description{
             max-width: 100%;
         }
         .about-item{
             padding: 40px 20px;
         }
+        .section-description{
+            max-width: 100%;
+        } 
     }
 }

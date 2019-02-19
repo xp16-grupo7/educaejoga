@@ -9,7 +9,7 @@
         }
     }
     .section-title{
-        margin-bottom: 40px;
+        margin-bottom: 50px;
     }
     strong{
         font-size: inherit;
@@ -28,6 +28,11 @@
     }  
     .participants-description{
         font-size: $font24;
+        color: $gray_dark;
+        strong{
+            color: inherit;
+            font-size: inherit;
+        }
     }
     .participants-ocupation{
         margin-bottom: 20px;

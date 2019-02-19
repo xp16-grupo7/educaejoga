@@ -31,10 +31,16 @@
 				<div class="collapse navbar-collapse justify-content-end" id="navbar-site">
 					<ul class="navbar-nav">
 						<li class="nav-item">
-							<a class="nav-link" href="#top" title="Compra de ingressos">Compra de ingressos</a>
+							<a class="nav-link" href="#" title="Compra de ingressos">Compra de ingressos</a>
 						</li> 					
 						<li class="nav-item">
-							<a class="nav-link" href="#about" title="Mais detalhes">Mais detalhes</a>
+							<a class="nav-link" href="#about" title="Sobre o evento">Sobre o evento</a>
+						</li> 				
+						<li class="nav-item">
+							<a class="nav-link" href="#palestrans" title="Palestrantes">Palestrantes</a>
+						</li> 				
+						<li class="nav-item">
+							<a class="nav-link" href="#location" title="Datas e Horários">Datas e Horários</a>
 						</li> 				
 					</ul>
 				</div> 
