@@ -1,8 +1,20 @@
 /**** FONTES ****/
-// @font-face {
-//     font-family: 'OpenSans';
-//     src: url("../src/fonts/OpenSans/OpenSans.ttf");
-// }
+@font-face {
+    font-family: 'Muli-Regular';
+    src: url("../src/fonts/Muli/Muli-Regular.ttf");
+}
+@font-face {
+    font-family: 'Muli-ExtraBold';
+    src: url("../src/fonts/Muli/Muli-ExtraBold.ttf");
+}
+@font-face {
+    font-family: 'SourceSansPro-Regular';
+    src: url("../src/fonts/Source_Sans_Pro/SourceSansPro-Regular.ttf");
+}
+@font-face {
+    font-family: 'SourceSansPro-Bold';
+    src: url("../src/fonts/Source_Sans_Pro/SourceSansPro-Bold.ttf");
+}
 // Project styles - Variables
 @import "_variables.scss";
 

@@ -1,7 +1,7 @@
 #main{
     display: flex;
-    #carrosel-main{
-        
+
+    #carrosel-main{        
         width: 100%;
     }
     .carrossel-main-item{
@@ -25,17 +25,20 @@
     .main-title{
         font-size: $font40;
         font-weight: bold;
-        text-transform: uppercase;
         color: $white;
         margin-bottom: 20px;
+        @include font_muli_bold();        
     }    
-    .main-subtitle{
-        font-size: $font19;
-        color: $white;        
-    }
     .main-description{
         margin-top: 20px;
         margin-bottom: 20px;
         color: $white;
+        font-size: $font30;
     }
+    .main-subtitle{
+        font-size: $font22;
+        color: $white;     
+        margin-top: 20px;   
+        margin-bottom: 20px;                
+    }    
 }

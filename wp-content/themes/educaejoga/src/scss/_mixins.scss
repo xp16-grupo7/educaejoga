@@ -1,17 +1,15 @@
 // fontes
-@mixin font_geog_light {
-    font-family: 'Geogrotesque-Light', serif;
-    font-weight: 300;
+@mixin font_muli_regular() {
+    font-family: 'Muli-Regular', serif;
 }
-@mixin font_geog_semibold {
-    font-family: 'Geogrotesque-SemiBold', serif;
-    font-weight: 400;
+@mixin font_muli_bold() {
+    font-family: 'Muli-ExtraBold', serif;
 }
-@mixin font_asap_regular {
-    font-family: 'Asap-Regular', serif;
+@mixin font_sans_regular() {
+    font-family: 'SourceSansPro-Regular', serif;
 }
-@mixin font_asap_bold {
-    font-family: 'Asap-Bold', serif;
+@mixin font_sans_bold() {
+    font-family: 'SourceSansPro-Bold', serif;
 }
 
 // efeitos

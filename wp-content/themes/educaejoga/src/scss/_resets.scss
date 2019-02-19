@@ -4,7 +4,10 @@
     padding: 0;
     line-height: 1.3;
     box-sizing: border-box;
-    font-family: sans-serif;
+    @include font_sans_regular();
+}
+.btn{
+    @include font_sans_bold();
 }
 html{
     font-size: 10px;
