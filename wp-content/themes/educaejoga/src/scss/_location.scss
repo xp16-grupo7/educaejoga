@@ -14,12 +14,12 @@
         display: flex;
         flex-wrap: wrap;
     }
-    .location-description,
     .location-icon{
-        flex-grow: 1;
+        height: 70px;
+        margin-right: 20px;
     }
-    .location-description{
-        padding-bottom: 15px;
+    .location-img{
+        max-height: 100%;
     }
     @include media_query_max(992px){
         .location-icon{
@@ -27,6 +27,12 @@
         }
         .location-description{
             padding-left: 20px;
+        }
+        .location-item{
+            justify-content: center;
+        }
+        .location-icon{         
+            margin-right: 0;
         }
     }
 }

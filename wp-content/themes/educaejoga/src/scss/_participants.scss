@@ -2,13 +2,17 @@
     padding-top: 60px;
     padding-bottom: 60px;
     background-color: $white;
+        
     .participants-item{
         @include media_query_max(992px){
             margin-bottom: 30px;
         }
     }
     .section-title{
-        margin-bottom: 20px;
+        margin-bottom: 40px;
+    }
+    strong{
+        font-size: inherit;
     }
     .participants-img{
         border-radius: 50%;

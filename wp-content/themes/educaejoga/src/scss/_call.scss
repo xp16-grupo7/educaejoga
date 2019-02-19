@@ -1,7 +1,9 @@
 #call{
     padding-top: 60px;
     padding-bottom: 60px;
-    background-image: url('../../img/banner-hero.jpg');
-    background-size: cover;
-    background-position: center;
+    @include img_bg('../img/banner-call-desk.jpg');
+    .section-title,
+    .section-description{
+        color: $white;
+    }
 }

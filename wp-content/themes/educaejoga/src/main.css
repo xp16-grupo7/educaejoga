@@ -4711,7 +4711,9 @@ img {
     #participants .participants-item {
       margin-bottom: 30px; } }
   #participants .section-title {
-    margin-bottom: 20px; }
+    margin-bottom: 40px; }
+  #participants strong {
+    font-size: inherit; }
   #participants .participants-img {
     border-radius: 50%;
     display: block;
@@ -4739,9 +4741,12 @@ img {
 #call {
   padding-top: 60px;
   padding-bottom: 60px;
-  background-image: url("../../img/banner-hero.jpg");
+  background-image: url("../img/banner-call-desk.jpg");
   background-size: cover;
   background-position: center; }
+  #call .section-title,
+  #call .section-description {
+    color: #fff; }
 
 #location {
   padding-top: 60px;
@@ -4756,16 +4761,20 @@ img {
   #location .location-item {
     display: flex;
     flex-wrap: wrap; }
-  #location .location-description,
   #location .location-icon {
-    flex-grow: 1; }
-  #location .location-description {
-    padding-bottom: 15px; }
+    height: 70px;
+    margin-right: 20px; }
+  #location .location-img {
+    max-height: 100%; }
   @media only screen and (max-width: 992px) {
     #location .location-icon {
       flex-grow: 0; }
     #location .location-description {
-      padding-left: 20px; } }
+      padding-left: 20px; }
+    #location .location-item {
+      justify-content: center; }
+    #location .location-icon {
+      margin-right: 0; } }
 
 #who-we-are {
   padding-top: 60px;

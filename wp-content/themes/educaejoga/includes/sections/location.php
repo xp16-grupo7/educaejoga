@@ -3,8 +3,7 @@
         <div class="row">
             <div class="col-lg-4 col-12 location-item">
                 <div class="location-icon">
-                    <!-- <?php get_template_part("incudes/components/icon-calendar");?> -->
-                    <img src="https://via.placeholder.com/100" alt="">
+                    <img src="<?php bloginfo("template_url");?>/img/icone-calendario.png" alt="" class="location-img" />
                 </div>
                 <div class="location-description">
                     <h3 class="location-title">Quando?</h3>
@@ -13,8 +12,7 @@
             </div>
             <div class="col-lg-4 col-12 location-item">
                 <div class="location-icon">                
-                    <!-- <?php get_template_part("includes/components/icon-location"); ?> -->
-                    <img src="https://via.placeholder.com/100" alt="">
+                    <img src="<?php bloginfo("template_url");?>/img/icone-mapa.png" alt="" class="location-icon" />
                 </div>
                 <div class="location-description">
                     <h3 class="location-title">Onde?</h3>
@@ -23,8 +21,7 @@
             </div>
             <div class="col-lg-4 col-12 location-item">
                 <div class="location-icon">
-                    <!-- <?php get_template_part("includes/components/icon-hour"); ?> -->
-                    <img src="https://via.placeholder.com/100" alt="">
+                    <img src="<?php bloginfo("template_url");?>/img/icone-hora.png" alt="" class="location-icon" />
                 </div>
                 <div class="location-description">
                     <h3 class="location-title">Que horas?</h3>
