@@ -2,11 +2,11 @@
 # BEGIN WordPress
 <IfModule mod_rewrite.c>
 RewriteEngine On
-RewriteBase /gamificae/
+RewriteBase /educaejoga/
 RewriteRule ^index\.php$ - [L]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule . /gamificae/index.php [L]
+RewriteRule . /educaejoga/index.php [L]
 </IfModule>
 
 # END WordPress

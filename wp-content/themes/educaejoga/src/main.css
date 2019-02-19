@@ -4796,9 +4796,6 @@ img {
   background-image: url("../img/banner-cta-desk.jpg");
   background-size: cover;
   background-position: center; }
-  #call .section-title,
-  #call .section-description {
-    color: #fff; }
 
 #location {
   padding-top: 60px;

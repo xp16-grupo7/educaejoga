@@ -3,7 +3,7 @@
 
         <div class="col-12">
             <h2 class="section-title">O que é GamificaÊ?</h2>
-            <p class="section-description">O Gamificaê é um evento criado para ajudar empresas a evoluirem através do <strong>aplicação da Gamificação em cases reais</strong> auxiliados por especialistas.</p>
+            <p class="section-description">O Gamificaê é um evento criado para ajudar empresas a evoluirem através da <strong>aplicação da Gamificação em cases reais</strong> auxiliados por especialistas.</p>
         </div>
         <div class="col-lg-6 col-12">
             <div class="about-item item-purple text-center">
@@ -16,7 +16,7 @@
             <div class="about-item item-pink text-center">
                 <img src="<?php bloginfo("template_url")?>/img/icon2.png" alt="Ícone" aria-hidden="true" class="about-img" />
                 <h3 class="about-title">Para você ligado em gamificação</h3>
-                <p class="about-description">Educadores, designers, e possoas dispostas a conhecer mais sobre gameficação</p>
+                <p class="about-description">Educadores, designers, e pessoas dispostas a conhecer mais sobre gameficação</p>
             </div>
         </div>
     </div>
