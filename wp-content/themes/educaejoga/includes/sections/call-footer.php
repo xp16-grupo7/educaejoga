@@ -11,7 +11,8 @@
                 <h3 class="call-footer-text">Receba novidades sobre o evento!</h3>
             </div>
             <div class="col-lg-7 col-12">
-                <form>
+                <?php echo do_shortcode('[contact-form-7 id="14" title="Formulário Receba novidades"]'); ?>
+                <!-- <form>
                     <div class="form-row align-items-center">
                         <div class="form-group col-lg-8 col-12">
                             <input type="text" class="form-control input-lg mb-3" id="inputName" name="inputName" aria-describedby="nameHelp" placeholder="Digite seu Nome" />
@@ -21,7 +22,7 @@
                             <button type="submit" class="btn btn-dark">Quero receber!</button>  
                         </div>
                     </div>                    
-                </form>
+                </form> -->
             </div>
         </div>
 

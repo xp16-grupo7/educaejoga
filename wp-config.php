@@ -23,13 +23,13 @@
 define('DB_NAME', 'educaejoga');
 
 /** Usuário do banco de dados MySQL */
-define('DB_USER', 'root');
+define('DB_USER', 'educaejoga');
 
 /** Senha do banco de dados MySQL */
-define('DB_PASSWORD', 'root');
+define('DB_PASSWORD', 'Educa1234');
 
 /** Nome do host do MySQL */
-define('DB_HOST', 'localhost');
+define('DB_HOST', 'mysql995.umbler.com');
 
 /** Charset do banco de dados a ser usado na criação das tabelas. */
 define('DB_CHARSET', 'utf8mb4');
@@ -50,14 +50,14 @@ define('DB_COLLATE', '');
  *
  * @since 2.6.0
  */
-define('AUTH_KEY',         '#H]EHySy.[jTLm6;&P)?mcx}G^o^)T{QSVE-euC{2#qm1CEJ,@[U0=d)q4z9sLde');
-define('SECURE_AUTH_KEY',  'Z$`^P1VIT/(EF*$7<f`ZF#kM8Y eRZF?9{BcYqtukuXq(3OU=`4c8Y&t~fJuP4BU');
-define('LOGGED_IN_KEY',    'NWlqFrf*?<kXur%t;<GQyR69LG Qk3`$sJ*3NUQrB{R=aulg&^lX{T0l]lqlBe#Q');
-define('NONCE_KEY',        'bb TDim=5G-nml{3-Lm;BG)hqYhN4HZ@RsA&Xp02O/{dT^mv7:V6 6h)UA-N.Wzo');
-define('AUTH_SALT',        '{)5uIVj:{ O$ep>vdE=msv``n9wFu+L!n*F<,]AL~QG@vu$4u*5f/J9p(DIE2U8N');
-define('SECURE_AUTH_SALT', 'U)dkdt@rD]yUABl<F?fr$uYRWzqB|}t=yk`~4!4ZCg)twjqTr]x0m7.F%iu~2X)P');
-define('LOGGED_IN_SALT',   'SX`d%@ZX2vN=ze-j&#y):qA5+`hbF-]<!ZA>z{F,Xk-i.B5A]Ep%U?Z=x_rxJ|50');
-define('NONCE_SALT',       's,{!=/(QB9UrTz}/(Hv_$$Gg48uy^,wDP;#v:*Bps{aB<TR|9cu)@)9xc,g/^O67');
+define('AUTH_KEY',         'uYcPt:uhZc#<I&rN4& XdSN.{zX!j17t|d:!,,~0b@;4@4%FAjN1!Uhnr{ WZ>qY');
+define('SECURE_AUTH_KEY',  'x[kx2<5$$K-Rab0ms!$/6xV!X$Rn>$iy8!{HPf~e>Ab`G:TX^+MkO-nl t.dHBt&');
+define('LOGGED_IN_KEY',    'D#SUPtLhk8c:Y/P`~F,w!D9Zm8;/NXhaV<v8P}=[fW00J9.z0WW~Cn%x.1}f#~[s');
+define('NONCE_KEY',        'q)6,u~3;{x;otb#rRVTx0LbB|V6vV2QH!]P#?zBS 59Kbh@.jyrsKa{;IWq:C(+P');
+define('AUTH_SALT',        'jiQ}UzZv=uH~muC[T9ob/RY,{x;Cmi3:K)5DYO|3MJptwYouy[xl2sI8{iIZ)iJR');
+define('SECURE_AUTH_SALT', 'R)tqg&_P6Z5qkwqC_Q<y?B$^Cnh#khk=Y*0db$b~iNR=1<:Cr/7`.%6VQu_)REnR');
+define('LOGGED_IN_SALT',   '-oHeZhWHwjSWkE/a_o`GS(7_E}@N/|1FNs2eMZkb7uLM9F$SiU>8v,[z#1ghOq=W');
+define('NONCE_SALT',       'D$+^:B-2KQ$o1cDn-,k7Vp(xL;Y$s7N@k5Nj-cj =B60oI^Y<zw_U2B+pQMR|Co&');
 
 /**#@-*/
 
@@ -67,7 +67,7 @@ define('NONCE_SALT',       's,{!=/(QB9UrTz}/(Hv_$$Gg48uy^,wDP;#v:*Bps{aB<TR|9cu)
  * Você pode ter várias instalações em um único banco de dados se você der
  * um prefixo único para cada um. Somente números, letras e sublinhados!
  */
-$table_prefix  = 'eej_';
+$table_prefix  = 'gam_';
 
 /**
  * Para desenvolvedores: Modo de debug do WordPress.

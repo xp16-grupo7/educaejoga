@@ -4645,7 +4645,15 @@ img {
       text-align: center; } }
 
 #header .navbar-toggler {
-  background-color: #6d6e71; }
+  background-color: transparent;
+  outline: none; }
+
+#header .menu-icon {
+  display: block;
+  width: 25px;
+  height: 2px;
+  background-color: #C4C4C4;
+  margin: 6px 0; }
 
 #main {
   display: flex; }
