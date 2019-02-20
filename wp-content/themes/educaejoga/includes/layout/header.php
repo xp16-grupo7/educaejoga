@@ -80,11 +80,11 @@
 
 						</li> 				
 
-						<?php /*<li class="nav-item m-4">
+						<li class="nav-item m-4">
 
-							<a class="nav-link" href="#palestrans" title="Palestrantes">Palestrantes</a>
+							<a class="nav-link" href="#participants" title="Mentores">Mentores</a>
 
-						</li> */ ?> 				
+						</li> 			
 
 						<li class="nav-item m-4">
 

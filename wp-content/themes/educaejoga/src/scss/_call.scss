@@ -4,3 +4,18 @@
     @include img_bg('../img/banner-cta-desk.jpg');
 }
 
+
+.main-title{
+    font-size: $font40;
+    font-weight: bold;
+    color: $white;
+    margin-bottom: 20px;
+    @include font_muli_bold();        
+}    
+.main-description{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: $white;
+    font-size: $font30;
+}
+

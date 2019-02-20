@@ -22,16 +22,16 @@
 define('DB_NAME', 'educaejoga');
 
 /** Usuário do banco de dados MySQL */
-define('DB_USER', 'educaejoga');
-/*define('DB_USER', 'root');*/
+/*define('DB_USER', 'educaejoga');*/
+define('DB_USER', 'root');
 
 /** Senha do banco de dados MySQL */
-define('DB_PASSWORD', 'Educa1234');
-/*define('DB_PASSWORD', '');*/
+/*define('DB_PASSWORD', 'Educa1234');*/
+define('DB_PASSWORD', '');
 
 /** Nome do host do MySQL */
-define('DB_HOST', 'mysql995.umbler.com');
-/*define('DB_HOST', 'localhost');*/
+/*define('DB_HOST', 'mysql995.umbler.com');*/
+define('DB_HOST', 'localhost');
 
 /** Charset do banco de dados a ser usado na criação das tabelas. */
 define('DB_CHARSET', 'utf8mb4');

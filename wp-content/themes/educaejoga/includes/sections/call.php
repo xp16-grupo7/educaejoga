@@ -6,9 +6,9 @@
 
             <div class="col-12 text-center">
 
-                <h2 class="section-title">GamificaÊ</h2>
+                <h2 class="main-title">GamificaÊ</h2>
 
-                <p class="section-description">Gamificação aplicada em cases reais e na prática! Não fique de fora dessa grande experiência, vagas limitadas.</p>
+                <p class="main-description">Gamificação aplicada em cases reais e na prática! Não fique de fora dessa grande experiência, vagas limitadas.</p>
 
                 <a href="https://www.sympla.com.br/gamificacao-no-treinamento-corporativo-resolvendo-cases-reais__461874" target="_blank" class="btn btn-white" title="Garanta seu Ingresso">Garanta seu Ingresso</a>
 

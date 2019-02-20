@@ -4709,7 +4709,7 @@ img {
     margin: 0 auto;
     max-width: 120px; }
   #about .about-item {
-    padding: 70px;
+    padding: 100px;
     -webkit-transform: scale(1);
     -ms-transform: scale(1);
     -moz-transform: scale(1);
@@ -4747,7 +4747,7 @@ img {
       #about .about-description {
         max-width: 100%; }
       #about .about-item {
-        padding: 40px 20px; }
+        padding: 80px 20px; }
       #about .section-description {
         max-width: 100%; } }
 
@@ -4797,6 +4797,19 @@ img {
   background-size: cover;
   background-position: center; }
 
+.main-title {
+  font-size: 40px;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 20px;
+  font-family: 'Muli-ExtraBold', serif; }
+
+.main-description {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #fff;
+  font-size: 30px; }
+
 #location {
   padding-top: 60px;
   padding-bottom: 60px; }
@@ -4829,10 +4842,16 @@ img {
       margin-right: 0;
       margin-bottom: 20px; } }
 
+#location a {
+  color: #5d29ba;
+  margin-bottom: 20px;
+  font-weight: bold;
+  font-size: 22px; }
+
 #who-we-are {
   padding-top: 60px;
   padding-bottom: 60px;
-  background-image: url("../img/bg-quem-somos-desk");
+  background-image: url("../img/bg-quem-somos-desk.jpg");
   background-size: cover;
   background-position: center;
   width: 100%;
