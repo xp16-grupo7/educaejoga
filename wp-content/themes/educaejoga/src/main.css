@@ -4730,7 +4730,7 @@ img {
   #about .item-purple {
     background-color: #5d29ba; }
   #about .item-pink {
-    background-color: #e83e8c; }
+    background-color: #ce064e; }
   #about .about-title {
     font-size: 25px;
     margin-top: 20px;
@@ -4773,7 +4773,7 @@ img {
     margin-top: 20px;
     margin-bottom: 20px; }
   #participants .participants-description {
-    font-size: 24px;
+    font-size: 26px;
     color: #3A3333; }
     #participants .participants-description strong {
       color: inherit;
@@ -4788,6 +4788,48 @@ img {
     #participants .participants-ocupation {
       font-size: 15px; }
     #participants .participants-description {
+      font-size: 15px; } }
+
+#partners {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #ce064e; }
+  @media only screen and (max-width: 992px) {
+    #partners .partners-item {
+      margin-bottom: 30px; } }
+  #partners .section-title {
+    margin-bottom: 50px; }
+  #partners strong {
+    font-size: inherit; }
+  #partners .partners-img {
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+    max-width: 200px; }
+    @media only screen and (max-width: 992px) {
+      #partners .partners-img {
+        max-width: 140px; } }
+  #partners .partners-title {
+    font-size: 30px;
+    color: #fff;
+    margin-top: 20px;
+    margin-bottom: 40px; }
+  #partners .partners-description {
+    font-size: 26px;
+    color: #3A3333; }
+    #partners .partners-description strong {
+      color: inherit;
+      font-size: inherit; }
+  #partners .partners-ocupation {
+    margin-bottom: 20px;
+    color: #3A3333;
+    font-size: 24px; }
+  @media only screen and (max-width: 992px) {
+    #partners .partners-title {
+      font-size: 20px; }
+    #partners .partners-ocupation {
+      font-size: 15px; }
+    #partners .partners-description {
       font-size: 15px; } }
 
 #call {
@@ -4843,10 +4885,10 @@ img {
       margin-bottom: 20px; } }
 
 #location a {
-  color: #5d29ba;
+  color: #ce064e;
   margin-bottom: 20px;
   font-weight: bold;
-  font-size: 22px; }
+  font-size: 24px; }
 
 #who-we-are {
   padding-top: 60px;
@@ -4944,4 +4986,6 @@ img {
   @media only screen and (max-width: 992px) {
     .footer .footer-nav,
     .footer .footer-social-links {
-      text-align: center; } }
+      text-align: center; }
+    .footer .hidden {
+      display: none; } }

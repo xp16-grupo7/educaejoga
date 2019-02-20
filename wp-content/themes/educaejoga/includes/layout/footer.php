@@ -6,7 +6,7 @@
 
         <div class="row">
 
-            <div class="col-lg-3 col-12">
+            <div class="col-lg-3 col-12 hidden">
 
                 <ul class="footer-nav">
 
@@ -20,7 +20,7 @@
 
             </div>
 
-            <div class="col-lg-3 col-12">
+            <div class="col-lg-3 col-sm-6">
 
                 <ul class="footer-nav">
 
@@ -34,7 +34,7 @@
 
             </div>
 
-            <div class="col-lg-6 col-12 footer-social-links">
+            <div class="col-lg-6 col-sm-6 footer-social-links">
 
                 <ul class="footer-nav">
 

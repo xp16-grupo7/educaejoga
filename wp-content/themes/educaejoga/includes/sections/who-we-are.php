@@ -13,7 +13,7 @@
                </div>
                 <div class="who-we-are-description">
                     <h3 class="icon-title">E-learning</h3>
-                    <p class="icon-description">Aprendizado contínuo online sem interferir nos compromissos presenciais diários</p>
+                    <p class="icon-description">Profissionalização contínua e eficiente, aliando flexibilidade com autonomia.</p>
                 </div>
             </div>
             <div class="col-lg-5 col-12 who-we-are-items">
@@ -22,7 +22,7 @@
                </div>
                 <div class="who-we-are-description">
                     <h3 class="icon-title">Gamificação</h3>
-                    <p class="icon-description">Aplicação de tecnologias gamificadas no método de ensino clássico. Elevamos sua transmissão de conteúdo para um novo patamar (é sério)</p>
+                    <p class="icon-description">Aplicação de metodologias gamificadas que permitem o maior engajamento dos colaboradores e conquista de maiores resultados.</p>
                 </div>
             </div>
         </div>

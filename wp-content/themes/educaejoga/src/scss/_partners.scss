@@ -1,9 +1,9 @@
-#participants{
+#partners{
     padding-top: 60px;
     padding-bottom: 60px;
-    background-color: $white;
+    background-color: $pink;
         
-    .participants-item{
+    .partners-item{
         @include media_query_max(992px){
             margin-bottom: 30px;
         }
@@ -14,19 +14,22 @@
     strong{
         font-size: inherit;
     }
-    .participants-img{
+    .partners-img{
         border-radius: 50%;
         display: block;
         margin: 0 auto;
         max-width: 200px;
+        @include media_query_max(992px){
+            max-width: 140px;
+        }
     }
-    .participants-title{
+    .partners-title{
         font-size: $font30;
-        color: $purple;
+        color: $white;
         margin-top: 20px;        
-        margin-bottom: 20px;        
+        margin-bottom: 40px;        
     }  
-    .participants-description{
+    .partners-description{
         font-size: $font26;
         color: $gray_dark;
         strong{
@@ -34,19 +37,19 @@
             font-size: inherit;
         }
     }
-    .participants-ocupation{
+    .partners-ocupation{
         margin-bottom: 20px;
         color: $gray_dark;
         font-size: $font24;
     }
     @include media_query_max(992px){
-        .participants-title{
+        .partners-title{
             font-size: $font20;
         }  
-        .participants-ocupation{
+        .partners-ocupation{
             font-size: $font15;
         }
-        .participants-description{
+        .partners-description{
             font-size: $font15;
         }
     }

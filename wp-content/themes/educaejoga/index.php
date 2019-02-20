@@ -5,6 +5,7 @@
     get_template_part("includes/sections/main");
     get_template_part("includes/sections/about");
     get_template_part("includes/sections/participants");
+    get_template_part("includes/sections/partners");
     get_template_part("includes/sections/call");
     get_template_part("includes/sections/location");
     get_template_part("includes/sections/who-we-are");
